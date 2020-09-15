@@ -5,6 +5,7 @@ import { BancoInter } from '../../assets/images';
 import Button from '../Button';
 import AccountDropDown from './AccountDropdown';
 import { User } from './Header';
+import Gradient from './Gradient';
 
 const Header: React.FC = () => {
   const user: User = { name: 'Herick Exterkoetter' };
@@ -21,6 +22,8 @@ const Header: React.FC = () => {
           <AccountDropDown user={user} />
         </RightNav>
       </Wrapper>
+
+      <Gradient />
     </Container>
   );
 };
