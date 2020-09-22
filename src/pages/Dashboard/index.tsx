@@ -1,14 +1,17 @@
 import React from 'react';
 
+import { Container, Wrapper } from './styles';
 import Header from '../../components/Header';
-import { Container } from './styles';
+import SideBar from './SideBar';
 
 const Dashboard: React.FC = () => {
   return (
     <>
       <Header />
       <Container>
-        <div>Hello Banco Inter</div>
+        <Wrapper>
+          <SideBar />
+        </Wrapper>
       </Container>
     </>
   );
