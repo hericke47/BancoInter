@@ -11,7 +11,7 @@ export const Container = styled.header`
 
 export const Wrapper = styled.div`
   height: 10.4rem;
-  max-width: 100rem;
+  max-width: 113rem;
   display: flex;
   width: 100%;
   justify-content: space-between;
