@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoBarber API" src="https://res.cloudinary.com/lukemorales/image/upload/v1599783084/readme_logos/bancointer_s0x4zc.png" />
+    <img alt="GoBarber API" src="./.github/inter.png" />
     <br>
     Banco Inter's Internet Banking Redesign
 </h1>
