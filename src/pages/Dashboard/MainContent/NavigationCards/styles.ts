@@ -9,18 +9,16 @@ export const Container = styled.div`
     height: 100%;
     max-height: 12rem;
     display: flex;
-
     > button:last-child {
-      margin-left: 2.4rem;
+      margin: 0 0 2.4rem 2.4rem;
       align-self: flex-end;
       background: ${transparentize(0.92, theme.colors.grey)};
       border-radius: 50%;
       max-width: 4rem;
       max-height: 4rem;
-      height: 100%;
       width: 100%;
+      height: 100%;
       padding: 0;
-
       svg {
         width: auto;
         height: 2.4rem;
@@ -30,11 +28,9 @@ export const Container = styled.div`
 `;
 
 export const Navigation = styled.nav`
-  ${() => css`
-    display: grid;
-    grid-template-columns: repeat(6, minmax(10.4rem, 1fr));
-    column-gap: 0.8rem;
-  `}
+  display: grid;
+  grid-template-columns: repeat(6, minmax(10.4rem, 1fr));
+  column-gap: 0.8rem;
 `;
 
 export const Card = styled(Button)`
@@ -53,11 +49,10 @@ export const Card = styled(Button)`
     padding: 1.6rem;
     box-shadow: ${theme.shadows.default};
     font-size: ${theme.fontSizes.default};
-
     div {
       background: ${theme.colors.lightGrey};
-      max-height: 6.4rem;
       max-width: 6.4rem;
+      max-height: 6.4rem;
       width: 100%;
       height: 100%;
       display: flex;
@@ -65,7 +60,6 @@ export const Card = styled(Button)`
       align-items: center;
       border-radius: 50%;
     }
-
     svg {
       stroke: ${theme.colors.primary};
       stroke-width: 1.5;
@@ -73,10 +67,10 @@ export const Card = styled(Button)`
       height: 100%;
       width: auto;
     }
-
     :nth-child(2) {
       svg {
         stroke: none;
       }
+    }
   `}
 `;
