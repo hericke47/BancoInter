@@ -7,7 +7,6 @@ import { Container, Balance } from './styles';
 
 const AccountBalance: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
-
   return (
     <Container>
       <Balance>
