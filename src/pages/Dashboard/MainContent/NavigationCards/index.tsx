@@ -2,9 +2,9 @@ import React from 'react';
 
 import { FiArrowRight } from 'react-icons/fi';
 
-import Button from '../../../../components/Button';
-import { cardsNavigation } from '../../../../resources';
 import { Container, Card, Navigation } from './styles';
+import { cardsNavigation } from '../../../../resources';
+import Button from '../../../../components/Button';
 
 const NavigationCards: React.FC = () => {
   return (
