@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Container, Wrapper } from './styles';
 import Header from '../../components/Header';
+import { Container, Wrapper } from './styles';
 import SideBar from './SideBar';
 import MainContent from './MainContent';
 
