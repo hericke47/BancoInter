@@ -9,6 +9,10 @@
   This is a new version of Banco Inter's Internet Banking inspired by <a href="https://www.linkedin.com/in/vtifoski/">Vinícius Tifoski</a>'s redesign to match the 2020 mobile interface.
 </h4>
 
+## Imagem do projeto :rocket:
+
+<img src="./.github/project.png" placeholder="imagem do projeto atual">
+
 ## :rocket: Technologies
 
 - [ReactJS](https://reactjs.org/)
