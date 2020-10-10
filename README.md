@@ -13,6 +13,10 @@
 
 <img src="./.github/project.png" placeholder="imagem do projeto atual">
 
+### Deploy
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f7403a21-176e-4926-87a7-211843fb24ec/deploy-status)](https://bancointer.netlify.app)
+
 ## :rocket: Technologies
 
 - [ReactJS](https://reactjs.org/)
